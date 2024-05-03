@@ -1,27 +1,49 @@
-# MeuProjetoAngular
+# Meu Projeto Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+Este é um projeto Angular que implementa um formulário para coleta de dados pessoais e endereços, com validações básicas de campos como CPF, CEP, e-mail, entre outros.
 
-## Development server
+## Instalação
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Para rodar este projeto, você precisará ter o [Node.js](https://nodejs.org/) e o [Angular CLI](https://angular.io/cli) instalados no seu computador.
 
-## Code scaffolding
+1. Clone este repositório para o seu computador:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+   git clone <URL-do-repositório>
 
-## Build
+2. Acesse o diretório do projeto:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   cd meu-projeto-angular
 
-## Running unit tests
+3. Instale as dependências necessárias:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   npm install
 
-## Running end-to-end tests
+## Execução
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para executar o projeto em modo de desenvolvimento, utilize o comando:
 
-## Further help
+   ng serve
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Isso abrirá o servidor de desenvolvimento e você poderá acessar a aplicação no navegador no endereço http://localhost:4200/.
+
+Para construir o projeto para produção, utilize o comando:
+
+   ng build
+
+Os arquivos de saída serão gerados no diretório `dist/`.
+
+## Uso
+
+O aplicativo possui um formulário simples que coleta informações pessoais e de endereço. Para enviar o formulário, preencha todos os campos obrigatórios e clique no botão "Enviar".
+
+## Dependências Importantes
+
+O projeto usa as seguintes principais dependências:
+
+- Angular
+- RxJS
+- Bootstrap
+
+## Licença
+
+Projeto aberto para fins estudantis.
